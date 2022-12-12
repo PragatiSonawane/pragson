@@ -1,0 +1,80 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+}
+.section{
+    height: 600vh;
+    background-color: #362b2e;
+    /* font-family: cursive; */
+}
+.plft{
+    float: left;
+    height: 100vh;
+    width: 20%;
+    position: fixed;
+    background-color: #3f3a3b;
+
+}
+.prr{
+    float: right;
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(245, 222, 245);
+}
+.control {
+  display: flex;
+ margin-top: 130px;
+ text-align: center;
+color: white;
+vertical-align:center;
+align-items: center;
+margin-right: -150px;
+}
+
+.control .line {
+  width: 100px;
+  height: 4px;
+  background: #fff;
+  margin-left: 35px;
+  margin-top: -13px;
+}
+.pt{
+  color: white;
+  margin-top: 200px;
+  margin-right: 190px;
+}
+.p1 {
+  margin-left: 56px;
+  padding-left: 42px;
+  margin-right: -29px;
+  color:  #f7827a;
+}
+.fa-solid{
+  color: white;
+  margin-left: 10px;
+  color: white;
+  left: 37px;
+  position: absolute;
+  top: 37px;
+}
+.name{
+  color:  #f7827a;
+  margin-left: 30px;
+}
+.name1{
+  font-weight: bold;
+  padding-top: -23px;
+  margin-top: -13px;
+  margin-left: 30px;
+}
+.profile{
+  margin-left: 65px;
+  line-height: 17px;
+  margin-top:84px;
+  margin-bottom: -29px;
+
+}
+.left{
+  float: left;
+}

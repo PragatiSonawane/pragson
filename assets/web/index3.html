@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/style3.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+</head>
+<body>
+<div class="section">   
+<div class="col-sm-3">
+    <div class="plft">
+    <div class="side" id="demo">
+        <div class="close">
+            <button  onClick="closenav('close','demo')">X</button>
+            <ul class="pt">
+            <h3>Home</h3>
+            <h3>Service</h3>
+            <h3>Portfolio</h3>
+            <h3>Rsume</h3>
+            <h3>Skills</h3>
+            <h3>Contact</h3>
+            <h3>Blog</h3></ul>
+        </div>
+    </div>
+
+    <i class="fa-solid fa-bars-staggered text-light"onClick="closenav('open','demo')"></i>
+    <script>
+       function closenav(event,side){
+           console.log('event',event)
+           if(side == 'demo'){
+               if (event =='open'){
+           document.getElementById('demo').style.width="331px"
+       }    
+    else{
+       document.getElementById('demo').style.width="0px"
+    }
+   }
+      else{
+         if (event=='open') {
+             document.getElementById('demo1').style.width="0px"
+         } 
+   else{
+       document.getElementById('demo1').style.width="250px"
+    } 
+    }
+        } 
+   </script> 
+
+    <div class="control">
+        <p class="p1"><b>01</b></p>
+        <div class="line"><span></span></div>
+        <p class="pl-2"><b>06</b></p>
+    </div>
+    <div class="profile">
+        <pre class="name">N A M E</pre>
+        <P class="text-white name1">Pragati Sonawane</P>
+    </div>
+    <div class="profile">
+        <pre class="name">R O L E</pre>
+        <P class="text-white name1">Designer</P>
+    </div>
+    <div class="profile">
+        <pre class="name">E M A I L</pre>
+        <P class="text-white name1">stone@example.com</P>
+    </div>
+    <div class="profile">
+        <pre class="name">P H O N E</pre>
+        <P class="text-white name1">(+987) 987 654 321</P>
+
+        <img src="../img/signature.jpeg" style="width: 240px; margin-top: 80px;margin-right: 20px;">
+    </div>
+
+</div>
+</div>
+<div class="col-sm-4 prr">
+    <div class="left">
+    <h1 class="text">Hello. My name is</h1>
+    <h1 class="txt"><b>Pragati <br> Sonwane</b></h1> 
+    <h5 class="text2"><b>A full stack all around designer that may or<br>may not include a guide for specific creative<br>potential methods who framing and evaluating<br>moves.</h5>
+        <div class="span">
+        <span class="ml-5">LINKDEIN</span>
+        <span class="ml-5">TWITTER</span>
+        <span class="ml-5">INSTAGRAM</span></div> 
+</div>
+<div class="col-sm-5">
+
+</div>
+
+
+</div> 
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
