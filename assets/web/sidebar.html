@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+.sidebar{
+    top: 0;
+    bottom: 0;
+    width: 0px;
+    background-color: aquamarine;
+    transition: 0.3s;
+    left: 0;
+    position: fixed;
+    overflow: hidden;
+}
+    </style>
+</head>
+<body>
+    <i class="fa-solid fa-bars" onclick="opennav()"></i>
+
+    <div>
+        <div class="sidebar" id="side">
+            <i class="fa-solid fa-xmark" onclick="closenav()"></i>
+        </div>
+    </div>
+    <script>
+        function opennav(){
+            document.getElementById('side').style.width="320px";
+        }
+        function closenav(){
+            document.getElementById('side').style.width="0px";
+        }
+    </script>
+</body>
+</html>
